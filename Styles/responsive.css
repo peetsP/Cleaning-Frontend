@@ -73,10 +73,15 @@
 		display: block;
 	}
 
+	ul.contacts {
+		display: none!important;
+	}
+
 	nav ul {
 		position: fixed;
 		width: 100%;
-		background: rgba(0, 0, 0, 0.78);
+		background: #97445F;
+		opacity: 0.95;
 		top: 77px;
 		left: -100%;
 		text-align: center;
@@ -86,12 +91,11 @@
 	nav.active ul {
 		position: fixed;
 		width: 100%;
-		background: rgba(192, 192, 192, 0.78);
+		background: #EDEDED;
 		top: 77px;
 		left: -100%;
 		text-align: center;
 		transition: all 1s ease-in-out;
-		border-radius: 20%;
 	}
 
 	nav ul li {

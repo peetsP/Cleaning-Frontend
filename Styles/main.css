@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 /* nav */
 
 nav {
@@ -62,7 +63,7 @@ nav ul li a{
 }
 
 .checkbtn {
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	float: right;
 	margin-right: 40px;
@@ -141,7 +142,7 @@ header.masthead {
 }
 
 .fa-instagram {
-  color: #833AB4;
+  color: #405DE6;
 }
 
 .fa-facebook:hover, .fa-twitter:hover, 
@@ -178,7 +179,7 @@ header.masthead {
     height: 2px;
 }
 
-.masthead .contactheadertext{
+.masthead .contactheadertext {
   font-size: 14px;
   letter-spacing: 0.5px;
   text-align: justify;
@@ -222,3 +223,113 @@ input[type=text], input[type=email], textarea{
     box-shadow: 1px 1px 1px 1px rgba(88, 86, 86, 0.9)!important;
     border: none;
   }
+
+
+
+  /******Our service *******/
+  .textp {
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+/* images section */
+
+.fit-image {
+  height: 100%;
+  width: 100%;
+}
+
+#my-grid {
+  margin-top: 50px;
+}
+
+.grid-padding {
+  padding: 0 8px;
+}
+
+.grid-padding img {
+  margin-bottom: 15px;
+  transition: 0.8s ease;
+}
+
+.grid-padding img:hover {
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.9);
+  transition: 0.6s ease-in;
+}
+
+.col-sm-4 {
+  padding-right: 30px;
+}
+
+
+/*****swiper ******/
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+
+.previous{
+  margin: 0;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.485);
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.previous h5 {
+  font-size: 14px;
+}
+
+.previous p {
+  font-size: 12px;
+}
+
+.fa-calendar-alt{
+  font-size: 16px!important;
+}
+
+
+/********About us **********/
+.texta {
+  font-size: 14px;
+}
+
+
+/* Social Media */
+
+.contactUs .card {
+  box-shadow: 0 7px 5px 0 rgba(0,0,0,0.5);
+  border-radius: 0;
+}
+
+.footer{
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,0.4);
+    transition: all 1s; 
+    overflow: hidden; 
+    letter-spacing: 1px;
+  }
+
+.arrow a{
+  color: black;
+}
+
+.arrow a:hover {
+  color: #2470a0;
+}
