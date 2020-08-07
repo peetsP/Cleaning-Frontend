@@ -336,14 +336,10 @@ input[type=text], input[type=email], textarea{
   color: #556F81;
 }
 
-.textpd .fab {
-  border: none!important;
+.foter_sub a {
+  text-decoration: none;
 }
 
-.fa-facebook-f {
-  border: none!important;
-}
-
-.fa-twitter {
-  border: none!important;
+.foter_sub a:link {
+  text-decoration: none;
 }
