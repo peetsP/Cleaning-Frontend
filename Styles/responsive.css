@@ -20,8 +20,34 @@
 	}
 }
 
-@media (min-width: 992px) {
-	
+@media (min-width: 1100px) {
+	.foter_sub {
+		margin-left: -130px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.bigheader {
+		font-size: 27px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.bigheader {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.bigheader {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 576px) {
+	.bigheader {
+		font-size: 22px;
+	}
 }
 
 
@@ -40,10 +66,6 @@
 	}
 	.search-submit {
 		font-size: 14px;
-	}
-
-	.contactform {
-		display: none;
 	}
 }
 
@@ -69,7 +91,7 @@
 		display: block;
 	}
 
-	ul.contacts {
+	ul.contactsb {
 		display: none!important;
 	}
 
@@ -131,6 +153,9 @@
 	.title-underline {
 		width: 220px;
 	}
+	.footer {
+		letter-spacing: 0.5px;
+	}
 }
 
 
@@ -141,6 +166,11 @@
 	}
 	.fa-arrow-alt-circle-up {
 		font-size: 24px;
+	}
+
+	.footer {
+		letter-spacing: 0px;
+		font-size: 13px;
 	}
  }
 
