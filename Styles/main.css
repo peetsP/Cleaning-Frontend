@@ -335,3 +335,15 @@ input[type=text], input[type=email], textarea{
 .arrow a:hover {
   color: #556F81;
 }
+
+.textpd .fab {
+  border: none!important;
+}
+
+.fa-facebook-f {
+  border: none!important;
+}
+
+.fa-twitter {
+  border: none!important;
+}
