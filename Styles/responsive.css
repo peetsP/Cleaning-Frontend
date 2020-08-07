@@ -9,6 +9,9 @@
 	nav ul {
 		padding-right: 70px!important;
 	}
+	.texta, .textpd, .textp {
+		font-size: 14px!important
+	}
 }
 
 @media (max-width: 1050px) {
@@ -21,8 +24,8 @@
 }
 
 @media (min-width: 1100px) {
-	.foter_sub {
-		margin-left: -130px;
+	.foter_suba {
+		margin-left: -180px;
 	}
 }
 
@@ -80,6 +83,9 @@
 	}
 	.vision, .mision {
 		font-size: 21px;
+	}
+	.texta, .textpd, .textp {
+		font-size: 13px!important
 	}
 }
 
@@ -172,6 +178,13 @@
 	}
 }
 
+@media (min-width: 768px) {
+	.footer {
+		letter-spacing: 1px;
+		font-size: 14px!important;
+	}
+}
+
 @media (max-width: 768px) {
 
 	nav ul li a {
@@ -194,6 +207,7 @@
 	}
 	.footer {
 		letter-spacing: 0.5px;
+		font-size: 14px;
 	}
 }
 
@@ -209,7 +223,7 @@
 
 	.footer {
 		letter-spacing: 0px;
-		font-size: 13px;
+		font-size: 14px;
 	}
  }
 
@@ -224,6 +238,9 @@
 	.swiper-slide {
 	  width: 280px;
 	  height: 280px;
+	}
+	.footer {
+		font-size: 13px!important;
 	}
  }
 

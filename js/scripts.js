@@ -13,7 +13,3 @@ window.onscroll = function() {
 		nav.classList.remove('active');
 	}
 }
-
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});

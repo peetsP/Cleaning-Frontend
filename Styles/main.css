@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /* nav */
 
 nav {
@@ -13,7 +12,7 @@ nav {
 }
 
 nav a:hover {
-  color: #78b7bb!important;
+  color: #ADB6BC!important;
 }
 
 nav.active {
@@ -117,11 +116,12 @@ header.masthead {
   }
 }
 
+
 .contacts {
     flex-direction: row;
 }
 
-.fa-facebook {
+.fa-facebook, .fa-facebook-f {
   color: #4267B2;
 }
 
@@ -225,12 +225,16 @@ input[type=text], input[type=email], textarea{
   }
 
 
-
   /******Our service *******/
-  .textp {
-    font-size: 14px;
-    text-align: center;
-  }
+
+.textp, .textpb {
+  text-align: center;
+}
+
+
+.texta {
+  font-size: 12px;
+}
 
 
 /* images section */
@@ -306,9 +310,7 @@ input[type=text], input[type=email], textarea{
 
 
 /********About us **********/
-.texta {
-  font-size: 14px;
-}
+
 
 
 /* Social Media */
@@ -331,5 +333,5 @@ input[type=text], input[type=email], textarea{
 }
 
 .arrow a:hover {
-  color: #2470a0;
+  color: #556F81;
 }
