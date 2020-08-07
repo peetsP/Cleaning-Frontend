@@ -26,9 +26,24 @@
 	}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.bigheader {
 		font-size: 27px;
+	}
+	.smallhead {
+		font-size: 19px;
+	}
+	.fa-star {
+		font-size: 14px;
+	}
+	.contactTexts h5, .search{
+		font-size: 19px;
+	}
+	.contactTexts p{
+		font-size: 15px;
+	}
+	.vision, .mision {
+		font-size: 23px;
 	}
 }
 
@@ -36,11 +51,35 @@
 	.bigheader {
 		font-size: 25px;
 	}
+	.smallhead {
+		font-size: 18px;
+	}
+	.fa-star {
+		font-size: 13px;
+	}
+	.contactTexts h5, .search{
+		font-size: 18px;
+	}
+	.contactTexts p{
+		font-size: 14px;
+	}
+	.vision, .mision {
+		font-size: 22px;
+	}
 }
 
 @media (max-width: 768px) {
 	.bigheader {
 		font-size: 23px;
+	}
+	.smallhead {
+		font-size: 17px;
+	}
+	.contactTexts h5, .search{
+		font-size: 17px;
+	}
+	.vision, .mision {
+		font-size: 21px;
 	}
 }
 
