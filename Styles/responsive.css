@@ -1,16 +1,12 @@
 @charset "UTF-8";
 
 
-
 @media (max-width: 1200px) {
 	nav {
 	  	padding-left: 130px!important;
 	}
 	nav ul {
 		padding-right: 70px!important;
-	}
-	.texta, .textpd, .textp {
-		font-size: 14px!important
 	}
 }
 
@@ -68,6 +64,12 @@
 	}
 	.vision, .mision {
 		font-size: 22px;
+	}
+}
+
+@media (min-width: 768px) {
+	.texta, .textpd, .textp {
+		font-size: 14px!important
 	}
 }
 
