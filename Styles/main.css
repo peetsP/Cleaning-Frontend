@@ -79,12 +79,12 @@ nav.active .checkbtn {
 }
 
 .checkbtn:hover {
-	color: #ADB6BC;
+	color: #5C6E7A;
 	transition: .5s;
 }
 
 nav.active .checkbtn:hover {
-	color: #ADB6BC;
+	color: #5C6E7A;
 	transition: .5s;
 }
 
