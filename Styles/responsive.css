@@ -26,6 +26,9 @@
 }
 
 @media (min-width: 1024px) {
+	.contheader {
+		font-size: 24px;
+	}
 	.bigheader {
 		font-size: 27px;
 	}
@@ -47,6 +50,9 @@
 }
 
 @media (max-width: 1024px) {
+	.contheader {
+		font-size: 23px;
+	}
 	.bigheader {
 		font-size: 25px;
 	}
@@ -68,12 +74,16 @@
 }
 
 @media (min-width: 768px) {
-	.texta, .textpd, .textp {
-		font-size: 14px!important
+	.texta, .textpd, .textp, .innercont p {
+		font-size: 14px!important;
 	}
 }
 
 @media (max-width: 768px) {
+
+	.contheader {
+		font-size: 23px;
+	}
 	.bigheader {
 		font-size: 23px;
 	}
@@ -87,16 +97,15 @@
 		font-size: 21px;
 	}
 	.texta, .textpd, .textp {
-		font-size: 13px!important
+		font-size: 14px!important
 	}
 }
 
-@media (max-width: 576px) {
-	.bigheader {
-		font-size: 22px;
+@media (min-width: 992px) {
+	.navbar-brand {
+		font-size: 24px;
 	}
 }
-
 
 @media (max-width: 992px) {
 	nav ul.navBar_resp li a {
@@ -104,7 +113,7 @@
 	}
 
 	.navbar-brand {
-		font-size: 19px;
+		font-size: 22px;
 	}
 
 	.swiper-slide {
@@ -123,15 +132,6 @@
 	}
 }
 
-
-
-@media (max-width: 952px) {
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
-	}
-
-}
 
 @media (max-width: 858px) {
 	.checkbtn {
@@ -200,12 +200,10 @@
 	}
 	.title-underline {
 		margin-bottom: 25px!important;
+		width: 270px;
 	}
 	.contactformmain {
 		margin-top: -50px!important;
-	}
-	.title-underline {
-		width: 220px;
 	}
 	.footer {
 		letter-spacing: 0.5px;
@@ -250,7 +248,31 @@
 	.footer {
 		font-size: 13px!important;
 	}
+	.title-underline {
+		margin-bottom: 25px!important;
+		width: 250px;
+	}
+	.contheader {
+		font-size: 21px;
+	}
+	.bigheader {
+		font-size: 22px;
+	}
+	.texta, .textpd, .textp {
+		font-size: 13px!important
+	}
  }
+
+
+@media (max-width: 476px) {
+	.title-underline {
+		width: 245px;
+	}
+	.contheader {
+		font-size: 20px;
+	}
+}
+
 
 @media (max-width: 375px) {  
 	.row .title {

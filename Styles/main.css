@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalam&family=Open+Sans:wght@600&family=Roboto&display=swap');
+
 
 /* nav */
 
@@ -39,6 +41,7 @@ nav ul li {
 	display: inline-block;
 	margin: 0 5px;
 	margin-right: 15px;
+  letter-spacing: 1px;
 }
 
 nav a{
@@ -60,6 +63,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none!important;
 }
+
 
 .checkbtn {
 	font-size: 25px;
@@ -145,10 +149,10 @@ header.masthead {
   color: #405DE6;
 }
 
-.fa-facebook:hover, .fa-twitter:hover, 
+.fa-facebook:hover, .fa-facebook-f:hover, .fa-twitter:hover, 
 .fa-whatsapp:hover, .fa-linkedin-in:hover, .fa-youtube:hover,
 .fa-instagram:hover {
-  color: #78b7bb;
+  color: #99A4AB;
 }
 
 .contacts li{
@@ -175,7 +179,7 @@ header.masthead {
 }
 
 .title-underline {
-    width: 250px;
+    width: 290px;
     height: 2px;
 }
 
@@ -333,7 +337,7 @@ input[type=text], input[type=email], textarea{
 }
 
 .arrow a:hover {
-  color: #556F81;
+  color: #99A4AB;
 }
 
 .foter_sub a {
@@ -342,4 +346,25 @@ input[type=text], input[type=email], textarea{
 
 .foter_sub a:link {
   text-decoration: none;
+}
+
+
+
+
+/********fonts *******/
+.navbar-brand {
+  font-family: 'Kalam', cursive;
+  letter-spacing: 2px;
+}
+
+nav ul li, .bigheader, .contheader, .innercont h5, .servicename, .search-submit, .learnmore {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.previous, .mision_vision, .AboutUs .texta, .textp, .innercont p {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  font-family: 'Josefin Sans', sans-serif;
 }
