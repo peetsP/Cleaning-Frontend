@@ -150,7 +150,7 @@
 		top: 77px;
 		left: -100%;
 		text-align: center;
-		transition: all 1s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 
 	nav.active ul {
@@ -160,7 +160,7 @@
 		top: 77px;
 		left: -100%;
 		text-align: center;
-		transition: all 1s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 
 	nav ul li {
