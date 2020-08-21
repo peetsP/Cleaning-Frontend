@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Gospel Artist" />
     <meta name="author" content="morese" />
-    <title>Company Name</title>
+    <title>G & A Cleaning Services</title>
 
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
@@ -20,7 +20,11 @@
 
 <body>
 
-<div class="container text-dark">
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+    </div>
+
+<div class="container text-dark" id="home">
 <nav class="navbar navbar-light fixed-top py-3 shadow" style="padding-left: 200px;">
   <a class="navbar-brand ml-5" href="#page-top">G&A</a>
   <input type="checkbox" id="check">
@@ -29,9 +33,9 @@
   </label>
 
       <ul class="navBar_resp mr-auto my-1">
-          <li class="nav-item"><a href="#">HOME</a></li>
-          <li class="nav-item"><a href="#">SERVICES</a></li>
-          <li class="nav-item"><a href="#">ABOUT</a></li>
+          <li class="nav-item"><a href="#home">HOME</a></li>
+          <li class="nav-item"><a href="#services">SERVICES</a></li>
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
       </ul>
 
       <ul class="contacts contactsb d-flex align-items-center justify-content-center my-1" style="padding-right: 200px;">
@@ -60,9 +64,8 @@
               <h4 class="contheader pb-0 mb-1">Contact us for more info!</h4>
               <div class="title-underline bg-danger mb-4"></div>
 
-              <p class="contactheadertext mb-4 textp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut. Ut enim ad minim veniam.</p>
+              <p class="contactheadertext mb-4 textp">This will be your brief description of the company. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
               <button class="btn btn-outline-light  learnmore mb-5">Learn More</button>
               
@@ -73,7 +76,7 @@
 
 <!--End of header -->
 
-<section class="container ourservices mt-3">
+<section class="container ourservices mt-3" id="services">
   <div class="row justify-content-center">
     <h2 class="col-12 text-center my-5 bigheader">OUR SERVICES</h2>
 
@@ -311,20 +314,19 @@
 </section>
 
 
-
 <!--About Us --->
 
-<section class="container AboutUs mt-3">
+<section class="container AboutUs mt-3" id="about">
     <div class="row text-center">
         <div class="col-12">
             <h2 class="mt-4 title my-2 bigheader">ABOUT US</h2>
         </div>
         <div class="col-lg-7 col-md-12 col-sm-12 p-5">
-            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. </p>
+            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. This will be about of your company. It will consist of everything u wanna write about your company. Anything about your company can be here. </p>
 
-            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. </p>
+            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. This will be about of your company. It will consist of everything u wanna write about your company. Anything about your company can be here. </p>
 
-            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anythong about your company can be here. This will be about of your company.</p>
+            <p class="p-2 text-left texta">This will be about of your company. It will consist of everything u wanna write about your company. Anything about your company can be here. This will be about of your company.</p>
 
         </div>
 
@@ -509,8 +511,7 @@
 
 <!--End of body ------>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -536,6 +537,15 @@
       },
     });
   </script>
+
+  <script>
+    
+    setTimeout(function() {
+      $('#loader-wrapper').fadeToggle();
+    }, 1500);
+
+  </script>
+
 
 </body>
 

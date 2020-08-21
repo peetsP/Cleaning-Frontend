@@ -1,6 +1,7 @@
 /*By morese */
 /* Copyright 2020 @morese */
 
+
 const nav = document.querySelector('.navbar');
 
 window.onscroll = function() {
